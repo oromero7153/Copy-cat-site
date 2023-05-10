@@ -29,14 +29,28 @@
     overflow-wrap: break-word;
   }
 /* actual css code */
-
-/* top nav bar */
-.top-nav li{
-    display: inline;
-    font-size: 15px;
-    text-align: center;
-    color: #ccccc;
+.top-nav{
+  background-color: black;
+  border-bottom: 5px solid rgb(55, 95, 180);
 }
-.container{
+.top-nav li {
+    display: inline;
+}
+a{
+  color: #cccccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: left;
+  padding: 2.5px;
+  font-weight: 4px;
+}
+a:visited{
+  color: #cccccc;
+}
+a:hover{
+  background-color: rgb(58, 58, 58);
+}
+.container {
 width: 90vw;
 }
