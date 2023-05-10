@@ -36,21 +36,44 @@
 .top-nav li {
     display: inline;
 }
-a{
+a.web-links {
   color: #cccccc;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 15px;
   text-align: left;
   padding: 2.5px;
   font-weight: 4px;
 }
-a:visited{
+a.web-links :visited{
   color: #cccccc;
 }
-a:hover{
+a.web-links:hover{
   background-color: rgb(58, 58, 58);
 }
+/* body of webpage */
 .container {
 width: 90vw;
+margin: auto;
+}
+svg{
+  padding: 20px;
+}
+.bottom-nav{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-top: 20px;
+  font-weight: bold;
+  margin-left: -20px;
+  letter-spacing: 2px;
+}
+.bottom-nav li{
+  display: inline;
+  padding: 5px;
+}
+li:hover{
+  background-color: rgb(55, 95, 180);
+  color: white;
 }
