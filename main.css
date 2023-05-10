@@ -29,9 +29,13 @@
     overflow-wrap: break-word;
   }
 /* actual css code */
- .top-nav li{
-    display: inline-block;
-    justify-content: center;
+
+/* top nav bar */
+.top-nav li{
+    display: inline;
+    font-size: 15px;
+    text-align: center;
+    color: #ccccc;
 }
 .container{
 width: 90vw;
