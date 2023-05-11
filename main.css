@@ -29,6 +29,8 @@
     overflow-wrap: break-word;
   }
 /* actual css code */
+
+/* top nav */
 .top-nav{
   background-color: black;
   border-bottom: 5px solid rgb(55, 95, 180);
