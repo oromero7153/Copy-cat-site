@@ -21,6 +21,10 @@
   }
 /* actual css code */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700;1,900&display=swap');
+  body{
+    margin: auto;
+    width: 100vw;
+  }
 /* top nav */
 .top-nav{
   background-color: black;
@@ -78,70 +82,3 @@ li:hover{
   justify-content: left;
 }
 /* container */
-.container {
-  width: 95vw;
-  margin: auto;
-  padding: 20px;
-  align-items: center;
-  display: flex;
-  }
-  .articles{
-    display: flex;
-    flex-wrap: wrap;
-    width: 10%;
-  }
-  .headline-article h1{
-    padding-top: 10px;
-    font-family: Helvetica;
-    line-height: 35px;
-    letter-spacing: -1px;
-  }
-  .headline-article h3{
-    padding-top: 5px;
-    padding-bottom: 10px;
-    font-family: Helvetica;
-  }
-    .headline-article img{
-    width: 900px; 
-  }
-  .headline-article p{
-    padding-top: 5px;
-  }
-  .bottom-articles{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    margin-top: 30px;
-  }
-  .bottom-articles img{
-    width: 280px;
-    padding-right: 30px;
-  }
-  .bottom-1 h3{
-    margin-top: 15px;
-    width: 90%;
-  }
-  .bottom-2 h3{
-    margin-top: 15px;
-    width: 90%;
-  }.bottom-3 h3{
-    margin-top: 15px;
-    width: 90%;
-  }
-
-  /*latest section on the right*/
-.latest{
-    height: 100%;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-.latest h2{
-  padding-bottom: 10px;
-  font-style: italic;
-}
-.latest-1, .latest-2, .latest-3, .latest-4{
-  padding-bottom: 20px;
-}
