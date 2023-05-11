@@ -10,17 +10,7 @@
   html, body {
     height: 100%;
   }
-  
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
+
   
   input, button, textarea, select {
     font: inherit;
@@ -58,6 +48,8 @@ a.web-links:hover{
 /* bottom nav */
 .header-mid{
   background-color: rgb(221, 221, 227);
+  justify-content: center;
+  padding-left: 20px;
 }
  .logo{
   padding: 30px 30px 30px 15px;
@@ -80,20 +72,23 @@ border-right: solid black 1px;
 li:hover{
   color: rgb(190, 45, 45);
 }
+
 .header-mid{
   display: flex;
   justify-content: left;
 }
 /* container */
 .container {
-  width: 90vw;
+  width: 95vw;
   margin: auto;
   padding: 20px;
+  align-items: center;
+  display: flex;
   }
   .articles{
     display: flex;
     flex-wrap: wrap;
-    width: 70vw;
+    width: 10%;
   }
   .headline-article h1{
     padding-top: 10px;
@@ -101,8 +96,52 @@ li:hover{
     line-height: 35px;
     letter-spacing: -1px;
   }
+  .headline-article h3{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: Helvetica;
+  }
+    .headline-article img{
+    width: 900px; 
+  }
+  .headline-article p{
+    padding-top: 5px;
+  }
   .bottom-articles{
     display: flex;
     flex-direction: row;
-    padding-top: 20px;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 30px;
   }
+  .bottom-articles img{
+    width: 280px;
+    padding-right: 30px;
+  }
+  .bottom-1 h3{
+    margin-top: 15px;
+    width: 90%;
+  }
+  .bottom-2 h3{
+    margin-top: 15px;
+    width: 90%;
+  }.bottom-3 h3{
+    margin-top: 15px;
+    width: 90%;
+  }
+
+  /*latest section on the right*/
+.latest{
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.latest h2{
+  padding-bottom: 10px;
+  font-style: italic;
+}
+.latest-1, .latest-2, .latest-3, .latest-4{
+  padding-bottom: 20px;
+}
