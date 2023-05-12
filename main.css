@@ -58,7 +58,6 @@ a.web-links:hover{
 }
  .logo{
   padding: 30px 30px 30px 15px;
-border-right: solid black 1px;
 }
 .bottom-nav{
   color: black;
@@ -85,6 +84,8 @@ li:hover{
 /* container */
 .container{
   width: 95vw;
+  display: flex;
+  flex-direction: column;
 }
 .top-container{
   display: flex;
@@ -128,4 +129,18 @@ margin-top: 15px;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #cccccc;
+}
+/* bottom articles */
+.bottom-articles{
+  display: flex;
+  max-width: 30%;
+}
+.bottom-articles img{
+  max-width: 250px;
+}
+.article-1, .article-2{
+margin-right: 10px;
+}
+.article-1{
+  margin-left: 20px;
 }
