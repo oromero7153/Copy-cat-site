@@ -85,15 +85,16 @@ li:hover{
 .container{
   width: 95vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .top-container{
   display: flex;
+  flex-direction: column;
 }
 
 /* main article CSS */
 .main-article{
-  max-width: 60%;
+  max-width: 100%;
   margin: 20px;
   padding-right: 10px;
   flex-basis: calc(75% - 20px);
@@ -111,7 +112,6 @@ li:hover{
 /* latest */
 .right-side{
 display: block;
-flex-basis: 25%;
 margin-top: 15px;
 }
 .latest{
@@ -133,10 +133,12 @@ margin-top: 15px;
 /* bottom articles */
 .bottom-articles{
   display: flex;
-  max-width: 30%;
+  flex-basis: calc(75%-20px);
+  max-width: 75%;
 }
 .bottom-articles img{
   max-width: 250px;
+  max-height: 140px;
 }
 .article-1, .article-2{
 margin-right: 10px;
